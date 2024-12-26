@@ -13,6 +13,7 @@
 *.ind
 *.out
 *.swp
+*.fls
 *~
 fig/chap*/Fig*.pdf
 fig/icons/*_chess_queen.pdf
