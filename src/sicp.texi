@@ -486,8 +486,6 @@ are still there in the Texinfo source, but will display only when compiled
 to Info output. At the dawn of e-book readers and tablets, reading a
 @acronym{PDF} on screen is officially not silly anymore. Enjoy!
 
-\enlargethispage{\baselineskip}
-
 @sp 0.5
 @noindent
 @i{A.R, May, 2011}
@@ -513,8 +511,6 @@ learn.  Don't feel as if the key to successful computing is only in your hands.
 What's in your hands, I think and hope, is intelligence: the ability to see the
 machine as more than when you were first led up to it, that you can make it
 more.''
-
-\enlargethispage{\baselineskip}
 
 @noindent
 ---Alan J. Perlis (April 1, 1922 -- February 7, 1990)
@@ -1088,8 +1084,6 @@ hopelessly inefficient, Lisp is now used in many applications where efficiency
 is not the central concern.  For example, Lisp has become a language of choice
 for operating-system shell languages and for extension languages for editors
 and computer-aided design systems.
-
-\enlargethispage{\baselineskip}
 
 If Lisp is not a mainstream language, why are we using it as the framework for
 our discussion of programming?  Because the language possesses unique features
@@ -2599,8 +2593,6 @@ environments and the detailed behavior of the interpreter.@anchor{Footnote 28}}
   (sqrt-iter 1.0))
 @end lisp
 
-\enlargethispage{\baselineskip}
-
 @noindent
 We will use block structure extensively to help us break up large
 programs into tractable pieces.@footnote{Embedded definitions must come
@@ -2751,8 +2743,6 @@ counter @math{\gets} counter + 1
 and stipulating that @math{n!} is the value of the product when the counter
 exceeds @math{n}.
 
-\enlargethispage{\baselineskip}
-
 @float
 @quotation
 @anchor{Figure 1.4}
@@ -2874,8 +2864,6 @@ as @code{fact-iter} as generating an iterative process.  However, the process
 really is iterative: Its state is captured completely by its three state
 variables, and an interpreter need keep track of only three variables in order
 to execute the process.
-
-\enlargethispage{\baselineskip}
 
 One reason that the distinction between process and procedure may be confusing
 is that most implementations of common languages (including Ada, Pascal, and C)
@@ -3330,8 +3318,6 @@ for any sufficiently large value of @math{n}.  (In other words, for large @math{
 the value @math{R(n)} is sandwiched between @math{k_1f(n)} and
 @math{k_2f(n)}.)
 
-\enlargethispage{\baselineskip}
-
 For instance, with the linear recursive process for computing factorial
 described in @ref{1.2.1} the number of steps grows proportionally to
 the input @math{n}.  Thus, the steps required for this process grows as
@@ -3611,8 +3597,6 @@ is ancient.  Examples of its use are found in the Rhind Papyrus, one of the two
 oldest mathematical documents in existence, written about 1700 @acronym{B.C.}
 (and copied from an even older document) by an Egyptian scribe named A@math{\!}'h-mose.}
 @end quotation
-
-\enlargethispage{\baselineskip}
 
 @quotation
 @strong{@anchor{Exercise 1.19}Exercise 1.19:} There is a clever algorithm for
@@ -4118,7 +4102,7 @@ have it return 0.
 @end quotation
 
 @sp 0.5
-@section Formulating Abstractions@* with Higher-Order Procedures
+@section Formulating Abstractions with Higher-Order Procedures
 @node	1.3,  , 1.2, Chapter 1
 
 We have seen that procedures are, in effect, abstractions that describe
@@ -5597,8 +5581,6 @@ that of the primitive operations of the language, the ability to construct
 compound data objects enables us to deal with data at a higher conceptual level
 than that of the primitive data objects of the language.
 
-\enlargethispage{\baselineskip}
-
 Consider the task of designing a system to perform arithmetic with rational
 numbers.  We could imagine an operation @code{add-rat} that takes two rational
 numbers and produces their sum.  In terms of simple data, a rational number can
@@ -5701,8 +5683,6 @@ compound data objects can serve as @newterm{conventional interfaces} for
 combining program modules in mix-and-match ways.  We illustrate some of these
 ideas by presenting a simple graphics language that exploits closure.
 
-\enlargethispage{\baselineskip}
-
 We will then augment the representational power of our language by introducing
 @newterm{symbolic expressions}---data whose elementary parts can be arbitrary
 symbols rather than only numbers.  We explore various alternatives for
@@ -5770,7 +5750,7 @@ for manipulating rational numbers.
 * 2-1-4::            Extended Exercise: Interval Arithmetic
 @end menu
 
-@subsection Example: Arithmetic Operations@* for Rational Numbers
+@subsection Example: Arithmetic Operations for Rational Numbers
 @node	2.1.1, 2.1.2, 2.1, 2.1
 
 Suppose we want to do arithmetic with rational numbers.  We want to be able to
@@ -5913,8 +5893,6 @@ complex data structures.  The single compound-data primitive @newterm{pair},
 implemented by the procedures @code{cons}, @code{car}, and @code{cdr}, is the
 only glue we need.  Data objects constructed from pairs are called
 @newterm{list-structured} data.
-
-\enlargethispage{\baselineskip}
 
 @subsubheading Representing rational numbers
 
@@ -9956,8 +9934,6 @@ need to decide whether to include the @code{car} of @code{set1} in this.  But
 this depends on whether @code{(car set1)} is also in @code{set2}.  Here is the
 resulting procedure:
 
-\enlargethispage{\baselineskip}
-
 @lisp
 (define (intersection-set set1 set2)
   (cond ((or (null? set1) (null? set2)) '())
@@ -10652,8 +10628,6 @@ different depending on whether they are called with a leaf or a general tree.
 These are simple examples of @newterm{generic procedures} (procedures that can
 handle more than one kind of data), which we will have much more to say about
 in @ref{2.4} and @ref{2.5}.
-
-\enlargethispage{\baselineskip}
 
 @subsubheading The decoding procedure
 
@@ -12461,8 +12435,6 @@ triangle      right          |       \    |
 
 @subsubheading Inadequacies of hierarchies
 
-\enlargethispage{\baselineskip}
-
 If the data types in our system can be naturally arranged in a tower, this
 greatly simplifies the problems of dealing with generic operations on different
 types, as we have seen.  Unfortunately, this is usually not the case.
@@ -13305,8 +13277,6 @@ during the division process.  Our answer will thus differ from the actual
 case of reducing rational functions to lowest terms; the @acronym{GCD} will be
 used to divide both the numerator and denominator, so the integer constant
 factor will cancel out.
-
-\enlargethispage{\baselineskip}
 
 More precisely, if @math{P} and @math{Q} are polynomials, let @math{O_1} be the order of
 @math{P} (i.e., the order of the largest term of @math{P}) and let @math{O_2} be the
@@ -14660,7 +14630,7 @@ env        | square: --+          |
 @sp 0.2
 @center @image{fig/chap3/Fig3.2b,49mm,,,.pdf}
 @sp 0.5
-@caption{@strong{Figure 3.2:} Environment structure produced by evaluating @* @code{(define (square x) (* x x))} in the global environment.}
+@caption{@strong{Figure 3.2:} Environment structure produced by evaluating @code{(define (square x) (* x x))} in the global environment.}
 @sp 0.8
 @end iftex
 @end quotation
@@ -14842,8 +14812,6 @@ in @ref{Figure 3.4}.)  The other two subexpressions are evaluated by applying
 the primitive operations @code{+} and @code{*} to evaluate the two combinations
 @code{(+ a 1)} and @code{(* a 2)} to obtain 6 and 10, respectively.
 
-\enlargethispage{\baselineskip}
-
 Now we apply the procedure object @code{sum-of-squares} to the arguments 6 and
 10.  This results in a new environment E2 in which the formal parameters
 @code{x} and @code{y} are bound to the arguments.  Within E2 we evaluate the
@@ -14927,7 +14895,7 @@ and an iterative version
                  max-count)))
 @end lisp
 
-Show the environment structures created by evaluating @* @code{(factorial 6)}
+Show the environment structures created by evaluating @code{(factorial 6)}
 using each version of the @code{factorial} procedure.@footnote{The environment
 model will not clarify our claim in @ref{1.2.1} that the interpreter
 can execute a procedure such as @code{fact-iter} in a constant amount of space
@@ -15108,8 +15076,6 @@ env       | W1: --+                                           |
 @c @end quotation
 @end float
 
-\enlargethispage{\baselineskip}
-
 Now we can analyze what happens when @code{W1} is applied to an argument:
 
 @lisp
@@ -15174,8 +15140,6 @@ env        | W1: --+                            |
 @end iftex
 @end quotation
 @end float
-
-\enlargethispage{\baselineskip}
 
 When the @code{set!} is executed, the binding of @code{balance} in E1 is
 changed.  At the completion of the call to @code{W1}, @code{balance} is 50, and
@@ -15582,8 +15546,6 @@ x -->| * | *-+---->| * | *-+---->| * | / |
 @end quotation
 @end float
 
-\enlargethispage{\baselineskip}
-
 @float[bp]
 @quotation
 @anchor{Figure 3.13}
@@ -15663,8 +15625,6 @@ z -->| * | *-+-+   +---+         +---+
 @end iftex
 @end quotation
 @end float
-
-\enlargethispage{\baselineskip}
 
 @float[bp]
 @quotation
@@ -15782,7 +15742,7 @@ w
 @end lisp
 
 What are the missing @math{\langle}@var{response}@math{\rangle}s?
-Draw box-and-pointer @* diagrams to explain your answer.
+Draw box-and-pointer diagrams to explain your answer.
 @end quotation
 
 @quotation
@@ -18844,8 +18804,6 @@ the balance variable, and the serializer is exported via message passing:
     dispatch))
 @end lisp
 
-\enlargethispage{\baselineskip}
-
 @noindent
 We can use this to do serialized deposits and withdrawals.  However, unlike our
 earlier serialized account, it is now the responsibility of each user of
@@ -21522,7 +21480,7 @@ that use assignment, mutate data, or perform input or output.  Even the single
 mutability and delayed evaluation do not mix well in programming languages, and
 devising ways to deal with both of these at once is an active area of research.
 
-@subsection Modularity of Functional Programs@* and Modularity of Objects
+@subsection Modularity of Functional Programs and Modularity of Objects
 @node	3.5.5,  , 3.5.4, 3.5
 
 As we saw in @ref{3.1.2}, one of the major benefits of introducing
@@ -23153,8 +23111,6 @@ original version of @code{apply} under a different name.}
    (primitive-implementation proc) args))
 @end lisp
 
-\enlargethispage{\baselineskip}
-
 @noindent
 For convenience in running the metacircular evaluator, we provide a
 @newterm{driver loop} that models the read-eval-print loop of the underlying
@@ -23608,8 +23564,6 @@ this exercise?  What if they are scanned out as shown in the text?  Explain.
 and Eva Lu Ator are arguing about the desired result of evaluating the
 expression
 
-\enlargethispage{\baselineskip}
-
 @lisp
 (let ((a 1))
   (define (f x)
@@ -23822,8 +23776,6 @@ procedures to which we dispatch perform only analysis, not full evaluation:
         ((application? exp) (analyze-application exp))
         (else (error "Unknown expression type: ANALYZE" exp))))
 @end lisp
-
-\enlargethispage{\baselineskip}
 
 @noindent
 Here is the simplest syntactic analysis procedure, which handles
@@ -24729,8 +24681,6 @@ actually generate the entire sequence of pairs first as in @ref{Chapter 2}, or
 interleave the generating and filtering as in @ref{Chapter 3}, is immaterial to
 the essential image of how the computation is organized.
 
-\enlargethispage{\baselineskip}
-
 The nondeterministic approach evokes a different image.  Imagine simply that we
 choose (in some way) a number from the first list and a number from the second
 list and require (using some mechanism) that their sum be prime.  This is
@@ -25569,8 +25519,6 @@ occurs on a branch of the process resulting from a choice, it may be necessary,
 when the process finds a dead end, to undo the side effect before making a new
 choice.  This is accomplished by having the side-effect operation produce a
 failure continuation that undoes the side effect and propagates the failure.
-
-\enlargethispage{\baselineskip}
 
 In summary, failure continuations are constructed by
 
@@ -28192,7 +28140,7 @@ satisfied).
 The selectors that define the syntax of @code{not} and @code{lisp-value} are
 given in @ref{4.4.4.7}.
 
-@subsubsection Finding Assertions@* by Pattern Matching
+@subsubsection Finding Assertions by Pattern Matching
 @node 4.4.4.3, 4.4.4.4, 4.4.4.2, 4.4.4
 
 @code{find-assertions}, called by @code{simple-query} (@ref{4.4.4.2}),
@@ -30101,8 +30049,6 @@ be active at any given time.  When the machine encounters a recursive
 subproblem, it can suspend work on the main problem, reuse the same physical
 parts to work on the subproblem, then continue the suspended computation.
 
-\enlargethispage{\baselineskip}
-
 In the subproblem, the contents of the registers will be different than they
 were in the main problem. (In this case the @code{n} register is decremented.)
 In order to be able to continue the suspended computation, the machine must
@@ -30939,7 +30885,7 @@ so that the assembler will signal an error if the same label name is used to
 indicate two different locations.
 @end quotation
 
-@subsection Generating Execution Procedures@* for Instructions
+@subsection Generating Execution Procedures for Instructions
 @node	5.2.3, 5.2.4, 5.2.2, 5.2
 
 The assembler calls @code{make-execution-procedure} to generate the execution
@@ -32406,8 +32352,6 @@ operands into @code{unev} and save this on the stack.  We set up
 however, we save the old value of @code{continue}, which tells the controller
 where to continue after the application.
 
-\enlargethispage{\baselineskip}
-
 @lisp
 ev-application
   (save continue)
@@ -32714,8 +32658,6 @@ one can replace the call by a jump to the called procedure's entry point.
 Building this strategy into the interpreter, as we have done in this section,
 provides the optimization uniformly throughout the language.}
 
-\enlargethispage{\baselineskip}
-
 If we did not think to take advantage of the fact that it was unnecessary to
 save information in this case, we might have implemented @code{eval-sequence}
 by treating all the expressions in a sequence in the same way---saving the
@@ -32746,8 +32688,6 @@ ev-sequence-end
   (restore continue)
   (goto (reg continue))
 @end lisp
-
-\enlargethispage{\baselineskip}
 
 @noindent
 This may seem like a minor change to our previous code for evaluation of a
@@ -32820,8 +32760,6 @@ ev-if-consequent
   (assign exp (op if-consequent) (reg exp))
   (goto (label eval-dispatch))
 @end lisp
-
-\enlargethispage{\baselineskip}
 
 @subsubheading Assignments and definitions
 
@@ -33768,11 +33706,11 @@ evaluates to the list
 @end lisp
 }
 
-@c For example, if the value of @code{linkage} is the symbol@* @code{branch25},
-@c then the expression@* @code{`((goto (label ,linkage)))}@* evaluates to the
-@c list@* @code{((goto (label branch25)))}.@* Similarly, if the value of @code{x}
-@c is the list @code{(a b c)}, then@* @code{`(1 2 ,(car x))}@* evaluates to the
-@c list@* @code{(1 2 a)}.}
+@c For example, if the value of @code{linkage} is the symbol @code{branch25},
+@c then the expression @code{`((goto (label ,linkage)))} evaluates to the
+@c list @code{((goto (label branch25)))}. Similarly, if the value of @code{x}
+@c is the list @code{(a b c)}, then @code{`(1 2 ,(car x))} evaluates to the
+@c list @code{(1 2 a)}.}
 
 @lisp
 (define (compile-linkage linkage)
@@ -33868,8 +33806,6 @@ arbitrary ways.
                   (reg env))
          (assign ,target (const ok))))))))
 @end lisp
-
-\enlargethispage{\baselineskip}
 
 @noindent
 The appended two-instruction sequence requires @code{env} and @code{val} and
@@ -34050,8 +33986,6 @@ procedures, analogous to the structure for compound procedures described in
         (compile-lambda-body exp proc-entry))
        after-lambda))))
 @end lisp
-
-\enlargethispage{\baselineskip}
 
 @noindent
 @code{compile-lambda} uses the special combiner
@@ -35180,8 +35114,6 @@ if there are many variables.  For example, consider the problem of looking up
 the value of @code{x} while evaluating the expression @code{(* x y z)} in an
 application of the procedure that is returned by
 
-\enlargethispage{\baselineskip}
-
 @lisp
 (let ((x 3) (y 4))
   (lambda (a b c d e)
@@ -35457,8 +35389,6 @@ read-eval-print-loop
   (perform (op initialize-stack))
   @dots{}
 @end lisp
-
-\enlargethispage{\baselineskip}
 
 @noindent
 @code{external-entry} assumes that the machine is started with @code{val}
@@ -36030,8 +35960,6 @@ Addison-Wesley, pp. 17-42.
 @acronym{@b{IEEE}} Std 1178-1990.  1990.  @cite{@acronym{IEEE} Standard for the
 Scheme Programming Language}.
 
-\enlargethispage{\baselineskip}
-
 \phantomsection @anchor{Ingerman et al. 1960}
 @b{Ingerman}, Peter, Edgar Irons, Kirk Sattley, and Wallace Feurzeig; assisted by
 M. Lind, Herbert Kanner, and Robert Floyd.  1960.  @acronym{THUNKS}: A way of
@@ -36156,8 +36084,6 @@ Laboratory.
 report, @acronym{MIT} Artificial Intelligence Laboratory.
 @url{http://www.unlambda.com/lmman/index.html, –›}
 
-\enlargethispage{\baselineskip}
-
 \phantomsection @anchor{Morris et al. 1980}
 @b{Morris}, J. H., Eric Schmidt, and Philip Wadler.  1980.  Experience with an
 applicative string processing language.  In @cite{Proceedings of the 7th Annual
@@ -36219,8 +36145,6 @@ principle.  @cite{Journal of the @acronym{ACM}} 12(1): 23.
 In @cite{Proceedings of the National Conference of the @acronym{ACM}},
 pp. 153-62.
 @url{http://dspace.mit.edu/handle/1721.1/5753, –›}
-
-\pagebreak
 
 \phantomsection @anchor{Steele 1982}
 @b{Steele}, Guy Lewis, Jr.  1982.  An overview of Common Lisp.  In
@@ -36344,7 +36268,7 @@ Kluwer Academic Publishers.
 @sp 0.8
 
 @quotation
-Any inaccuracies in this index may be explained by the fact@*
+Any inaccuracies in this index may be explained by the fact
 that it has been prepared with the help of a computer.
 
 ---Donald E. Knuth, @cite{Fundamental Algorithms}@*
