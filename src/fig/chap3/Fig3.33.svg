@@ -434,7 +434,7 @@
          y="387.36218">v</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
        x="130"
        y="447.36218"
        id="text8815"
@@ -443,11 +443,11 @@
          x="130"
          y="447.36218"
          id="tspan8821">scale: <tspan
-   style="font-style:oblique;-inkscape-font-specification:Inconsolata LGC Oblique"
+   style="font-style:oblique;-inkscape-font-specification:Source Code Pro Oblique"
    id="tspan11581">R</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
        x="245"
        y="530.45142"
        id="text8815-0"
@@ -458,7 +458,7 @@
          id="tspan8821-0">integral</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
        x="329"
        y="512.92603"
        id="text9178-7"
@@ -469,7 +469,7 @@
          y="512.92603">add</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
        x="130"
        y="530.45142"
        id="text8815-8"
@@ -482,7 +482,7 @@
          id="tspan8821-8">scale: 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Inconsolata LGC;-inkscape-font-specification:Sans"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Code Pro;-inkscape-font-specification:Sans"
        x="149.07915"
        y="538.4873"
        id="text11562"
@@ -491,7 +491,7 @@
          id="tspan11564"
          x="149.07915"
          y="538.4873"
-         style="font-style:oblique;-inkscape-font-specification:Inconsolata LGC Oblique">C</tspan></text>
+         style="font-style:oblique;-inkscape-font-specification:Source Code Pro Oblique">C</tspan></text>
     <g
        id="g3089"
        transform="translate(-76.03572,1.7321344)">

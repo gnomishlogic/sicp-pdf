@@ -238,40 +238,40 @@
          x="80"
          y="202.36218"
          style="line-height:129.99999523%">parameters:<tspan
-   style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+   style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
    id="tspan8113"> balance</tspan></tspan><tspan
          sodipodi:role="line"
          x="80"
          y="221.22917"
          id="tspan5501"
          style="line-height:129.99999523%">body:<tspan
-   style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+   style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
    id="tspan5503"
    dy="0"> (lambda (amount)</tspan></tspan><tspan
          sodipodi:role="line"
          x="80"
          y="237.95345"
          id="tspan7827"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC">        (if (&gt;= balance amount)</tspan><tspan
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro">        (if (&gt;= balance amount)</tspan><tspan
          sodipodi:role="line"
          x="80"
          y="253.35345"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
          id="tspan7831"
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.6 -4 -1">            (begin (set! balance (-- balance amount))</tspan><tspan
          sodipodi:role="line"
          x="80"
          y="268.75345"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
          id="tspan7833">                   balance)</tspan><tspan
          sodipodi:role="line"
          x="80"
          y="284.15344"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
          id="tspan7835">            &quot;insufficient funds&quot;))</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:129.99999523%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:129.99999523%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
        x="65"
        y="105.78568"
        id="text5477"
@@ -288,7 +288,7 @@
          id="tspan5507">env</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro"
        x="145"
        y="113.62489"
        id="text5473"

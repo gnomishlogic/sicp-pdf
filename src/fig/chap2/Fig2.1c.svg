@@ -170,7 +170,7 @@
          id="tspan6870"
          x="232.42857"
          y="63.451469"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC">Programs that use rational numbers</tspan></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro">Programs that use rational numbers</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
@@ -194,7 +194,7 @@
          id="tspan6878"
          x="233"
          y="123.36218"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC">add-rat  sub-rat  ...</tspan></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro">add-rat  sub-rat  ...</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
@@ -218,7 +218,7 @@
          id="tspan6886"
          x="232"
          y="183.36218"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC">make-rat  numer  denom</tspan></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro">make-rat  numer  denom</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
@@ -242,7 +242,7 @@
          id="tspan6894"
          x="232"
          y="243.36218"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC">cons  car  cdr</tspan></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Code Pro;-inkscape-font-specification:Source Code Pro">cons  car  cdr</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"

@@ -18,9 +18,9 @@ The following fonts are required:
 
 - [Alegreya](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro)
 - [Libertinus](https://github.com/alerque/libertinus)
-- [Inconsolata LGC](https://github.com/MihailJP/Inconsolata-LGC)
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-All except Inconsolata LGC can also be found in a full installation of TeX Live.
+They can also be found in a full installation of TeX Live.
 
 The `src` directory contains both Texinfo and LaTeX sources. To recompile the book, go there and enter:
 
