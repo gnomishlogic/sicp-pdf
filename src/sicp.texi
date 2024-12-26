@@ -17618,7 +17618,7 @@ multipliers and the adder, which determine that there is not enough information
 to proceed.  If the user (or some other part of the network) sets @math{C} to a
 value (say 25), the leftmost multiplier will be awakened, and it will set @math{u}
 to @math{25 \cdot 9 = 225}.  Then @math{u} awakens the second multiplier, which sets @math{v} to
-45, and @math{v} awakens the adder, which sets @math{f} to 77.
+45, and @math{v} awakens the adder, which sets @math{F} to 77.
 
 @subsubheading Using the constraint system
 
@@ -21681,7 +21681,7 @@ On the other hand, if we look closely, we can see time-related problems
 creeping into functional models as well.  One particularly troublesome area
 arises when we wish to design interactive systems, especially ones that model
 interactions between independent entities.  For instance, consider once more
-the implementation a banking system that permits joint bank accounts.  In a
+the implementation of a banking system that permits joint bank accounts.  In a
 conventional system using assignment and objects, we would model the fact that
 Peter and Paul share an account by having both Peter and Paul send their
 transaction requests to the same bank-account object, as we saw in
@@ -24396,8 +24396,9 @@ count
 @code{actual-value} rather than @code{eval} to evaluate the operator before
 passing it to @code{apply}, in order to force the value of the operator.  Give
 an example that demonstrates the need for this forcing.
+@end quotation
 
-@noindent
+@quotation
 @strong{@anchor{Exercise 4.29}Exercise 4.29:} Exhibit a program that you would
 expect to run much more slowly without memoization than with memoization.
 Also, consider the following interaction, where the @code{id} procedure is
