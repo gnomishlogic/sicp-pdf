@@ -12,7 +12,7 @@
 \renewcommand{\baselinestretch}{1.05}
 
 % Font settings
-\usepackage[no-math]{fontspec} %-----------------------%  This exact order
+\usepackage{fontspec} %--------------------------------%  This exact order
 \defaultfontfeatures{%                                 %  of declarations
   Scale=MatchLowercase, % needed here ...              %  is important for
 }                                                      %  single quotes not
@@ -23,8 +23,8 @@
   Mapping=tex-text,                                    %  Now the quote is
   SmallCapsFeatures={LetterSpace=2.5,WordSpace=1.05},  %  upright and safely
 }                                                      %  copy-pasteable to
-\setmainfont{Linux Libertine O}                        %  the REPL without
-\setsansfont{Linux Biolinum O} %-----------------------%  giving errors.
+\setmainfont{Libertinus Serif}                         %  the REPL without
+\setsansfont{Libertinus Sans} %------------------------%  giving errors.
 
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=american]{english}
@@ -43,19 +43,8 @@
 \usepackage[usenames,dvipsnames,x11names]{xcolor}
 \usepackage{amsmath}
 
-% To use Libertine letters and numbers,
-% but tx-style operators in math environment:
-\usepackage[libertine]{newtxmath}
-
-% Workaround to fix mismatched left and right math delimiters. Taken from:
-% http://tex.stackexchange.com/questions/63410/parentheses-differ-xelatex-fontspec-newtxmath-libertine
-\DeclareSymbolFont{parenthesis}{T1}{fxl}{m}{n}
-\DeclareMathDelimiter{(}{\mathopen}{parenthesis}{"28}{largesymbols}{"00}
-\DeclareMathDelimiter{)}{\mathclose}{parenthesis}{"29}{largesymbols}{"01}
-\DeclareMathDelimiter{[}{\mathopen}{parenthesis}{"5B}{largesymbols}{"02}
-\DeclareMathDelimiter{]}{\mathclose}{parenthesis}{"5D}{largesymbols}{"03}
-\DeclareMathDelimiter{\lbrace}{\mathopen}{parenthesis}{"7B}{largesymbols}{"08}
-\DeclareMathDelimiter{\rbrace}{\mathclose}{parenthesis}{"7D}{largesymbols}{"09}
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}
 
 \usepackage{fancyvrb}
 \usepackage{imakeidx}
@@ -183,8 +172,8 @@
     commentstyle=\color{SchemeLight}\itshape,
 }
 
-\newcommand{\acronym}[1]{\textsc{\fontspec[Numbers={OldStyle}]{Linux Libertine O}\MakeLowercase{#1}}}
-\newcommand{\uppersc}[1]{{\fontspec[Letters=UppercaseSmallCaps]{Linux Libertine O}#1}}
+\newcommand{\acronym}[1]{\textsc{\fontspec[Numbers={OldStyle}]{Libertinus Serif}\MakeLowercase{#1}}}
+\newcommand{\uppersc}[1]{{\fontspec[Letters=UppercaseSmallCaps]{Libertinus Serif}#1}}
 \newcommand{\newterm}[1]{\index{#1}\emph{#1}}
 \newcommand{\var}[1]{\textsl{#1}}
 \newcommand{\code}[1]{\texttt{#1}}

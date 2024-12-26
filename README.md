@@ -17,7 +17,7 @@ Source
 The following fonts are required:
 
 - [Alegreya](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro)
-- [Linux Libertine](https://libertine-fonts.org/)
+- [Libertinus](https://github.com/alerque/libertinus)
 - [Inconsolata LGC](https://github.com/MihailJP/Inconsolata-LGC)
 
 All except Inconsolata LGC can also be found in a full installation of TeX Live.
