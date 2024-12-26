@@ -1,4 +1,4 @@
-% !TEX TS-program = xelatex
+% !TEX TS-program = lualatex
 % !TEX encoding = UTF-8 Unicode
 
 %===========================================%
@@ -12,6 +12,7 @@
 \renewcommand{\baselinestretch}{1.05}
 
 % Font settings
+\usepackage{microtype}
 \usepackage{fontspec} %--------------------------------%  This exact order
 \defaultfontfeatures{%                                 %  of declarations
   Scale=MatchLowercase, % needed here ...              %  is important for
@@ -20,7 +21,7 @@
                                                        %  ("typographic")
 \defaultfontfeatures{%                                 %  in verbatim blocks
   Scale=MatchLowercase, % ... and here again           %  of Scheme code.
-  Mapping=tex-text,                                    %  Now the quote is
+  Ligatures=TeX,                                       %  Now the quote is
   SmallCapsFeatures={LetterSpace=2.5,WordSpace=1.05},  %  upright and safely
 }                                                      %  copy-pasteable to
 \setmainfont{Libertinus Serif}                         %  the REPL without
@@ -172,8 +173,8 @@
     commentstyle=\color{SchemeLight}\itshape,
 }
 
-\newcommand{\acronym}[1]{\textsc{\fontspec[Numbers={OldStyle}]{Libertinus Serif}\MakeLowercase{#1}}}
-\newcommand{\uppersc}[1]{{\fontspec[Letters=UppercaseSmallCaps]{Libertinus Serif}#1}}
+\newcommand{\acronym}[1]{\textsc{\fontspec[Numbers={OldStyle},Ligatures=TeX]{Libertinus Serif}\MakeLowercase{#1}}}
+\newcommand{\uppersc}[1]{{\fontspec[Letters=UppercaseSmallCaps,Ligatures=TeX]{Libertinus Serif}#1}}
 \newcommand{\newterm}[1]{\index{#1}\emph{#1}}
 \newcommand{\var}[1]{\textsl{#1}}
 \newcommand{\code}[1]{\texttt{#1}}

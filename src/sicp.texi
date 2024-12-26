@@ -35756,7 +35756,7 @@ into sequences of C instructions.  Compile the metacircular evaluator of
 @unnumbered References
 @node    References, List of Exercises, Chapter 5, Top
 
-\fontspec[Numbers={OldStyle},StylisticSet=6]{Libertinus Serif}
+\fontspec[Numbers={OldStyle},StylisticSet=6,Ligatures=TeX]{Libertinus Serif}
 
 \phantomsection @anchor{Abelson et al. 1992}
 @b{Abelson}, Harold, Andrew Berlin, Jacob Katzenelson, William McAllister,
@@ -36323,7 +36323,7 @@ Ph.D. dissertation, Department of Electrical Engineering and Computer Science,
 @b{Zippel}, Richard.  1993.  @cite{Effective Polynomial Computation}.  Boston, @acronym{MA}:
 Kluwer Academic Publishers.
 
-\fontspec[Numbers={Lining}]{Libertinus Serif}
+\fontspec[Numbers={Lining},Ligatures=TeX]{Libertinus Serif}
 
 @unnumbered List of Exercises
 @node    List of Exercises, List of Figures, References, Top
@@ -36369,6 +36369,6 @@ that it has been prepared with the help of a computer.
 
 The typefaces are Libertinus Serif for body text and Libertinus Sans for headings, both by Philipp H. Poll. Typewriter face is Source Code Pro created by Paul D. Hunt. The cover page typeface is Alegreya, designed by Juan Pablo del Peral.
 
-Graphic design and typography are done by Andres Raba. Texinfo source is converted to LaTeX by a Perl script and compiled to @acronym{PDF} by XeLaTeX. Diagrams are drawn with Inkscape.
+Graphic design and typography are done by Andres Raba. Texinfo source is converted to LaTeX by a Perl script and compiled to @acronym{PDF} by LuaLaTeX. Diagrams are drawn with Inkscape.
 
 @bye
