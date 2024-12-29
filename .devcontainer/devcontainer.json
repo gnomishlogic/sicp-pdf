@@ -1,0 +1,12 @@
+{
+    "image": "registry.gitlab.com/islandoftex/images/texlive:TL2025-historic",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installSsl": false
+        },
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            "packages": "inkscape"
+        }
+    },
+    "remoteUser": "texlive"
+}
